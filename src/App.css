@@ -12,15 +12,19 @@ img {
   min-height: 100vh;
   width: 85vw;
   max-width: 1900px;
+  scroll-behavior:smooth ;
+
+  transition: all;
+  transition-duration: 1000ms;
   margin: 0rem auto;
+  scroll-behavior: smooth;
 }
 body {
   max-width: 100%;
   overflow-x: hidden;
-}
-
-body {
   background-color: #f6f6f6;
+
+
 }
 
 nav {
@@ -74,7 +78,7 @@ nav {
 .home-banner-container {
   position: relative;
   display: flex;
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 .home-bannerImage-container {
   position: absolute;
@@ -98,7 +102,7 @@ nav {
   margin-top: -5rem;
 }
 .primary-heading {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: 40px;
   margin-left: 100px;
   color: #4c4c4c;
   /* line-height: 5rem; */
