@@ -114,6 +114,7 @@ nav {
   color: #6a6a6a;
   margin-left: 5rem;
   padding: 30px;
+  margin-top: -2rem;
 }
 .secondary-button {
   padding: 1rem 2.5rem;
@@ -260,7 +261,6 @@ nav {
   cursor: pointer;
 }
 .testimonial-section-bottom {
-  margin-top: 2rem;
   background-color: white;
   padding: 1.5rem 2rem;
   display: flex;
@@ -272,14 +272,15 @@ nav {
   text-align: center;
 }
 .testimonial-section-bottom {
-  margin: 2rem auto;
+  margin: 1rem auto ;
 }
 .testimonial-section-bottom p {
   font-weight: 700;
   color: #515151;
+  margin-top: 1rem;
+
   max-width: 500px;
   font-size: 1.1rem;
-  margin: 2rem 0rem;
 }
 .testimonials-stars-container svg {
   margin: 0rem 0.25rem;
@@ -289,8 +290,14 @@ nav {
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;
 }
+html{
+  scroll-behavior: smooth;
+  transition: all;
+  transition-duration: 8000ms;
+}
+
 .work-section-wrapper {
-  margin-top: rem;
+  margin-top: 5rem;
   padding: 10px;
 }
 .work-section-top p {
@@ -324,7 +331,7 @@ nav {
   margin: 1rem 0rem;
 }
 .work-section-bottom {
-  margin-top: 5rem;
+  margin-top: -1rem;
   display: flex;
   justify-content: center;
   align-items: center;
